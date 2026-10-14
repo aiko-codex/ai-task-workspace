@@ -1,0 +1,35 @@
+/* FORM STYLES */
+.main-form-container {
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
+}
+
+.blue-theme .figure-profile,
+.blue-theme .form-control:focus,
+.blue-theme .custom-control-input:focus~.custom-control-label::before,
+.blue-theme .custom-control-input:checked~.custom-control-label::before,
+.blue-theme .float-label .form-control:focus,
+.blue-theme .page-item.active .page-link,
+.blue-theme .btn-outline-default {
+    border-color: #4885FF !important;
+}
+
+.blue-theme .text-template,
+.blue-theme .btn-link,
+.blue-theme .float-label .form-control:focus+.form-control-label,
+.blue-theme .btn-light:hover,
+.blue-theme .btn-light:focus,
+.blue-theme .btn-light:not(:disabled):not(.disabled).active,
+.blue-theme .btn.btn-link-default:hover,
+.blue-theme .btn.btn-link-default:focus,
+.blue-theme .btn.btn-link-default.active {
+    color: #4885FF !important;
+}
+
+.blue-theme .btn-default:hover,
+.blue-theme .btn-default:focus {
+    color: #ffffff;
+    background-color: oklch(0.656 0.164 244.8) !important;
+}

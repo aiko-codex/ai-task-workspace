@@ -1,0 +1,68 @@
+.srp-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: var(--space-3);
+    margin-bottom: var(--space-4);
+}
+
+.srp-card {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-1);
+    padding: var(--space-4);
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-sm);
+}
+
+.srp-card-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    margin-bottom: var(--space-2);
+    border-radius: var(--radius-md);
+    background: var(--accent-soft);
+    color: var(--accent-text);
+}
+
+.srp-card-icon-email {
+    background: var(--blue-soft);
+    color: var(--blue);
+}
+
+.srp-card-icon-whatsapp {
+    background: var(--green-soft);
+    color: var(--green);
+    font-size: 16px;
+}
+
+.srp-card-icon-failed {
+    background: var(--red-soft);
+    color: var(--red);
+}
+
+.srp-card-label {
+    font-size: var(--text-sm);
+    color: var(--t2);
+}
+
+.srp-card-value {
+    font-size: 26px;
+    line-height: 32px;
+    font-weight: 600;
+    letter-spacing: var(--track-title);
+    font-variant-numeric: tabular-nums;
+    color: var(--t1);
+}
+
+.srp-card-note {
+    font-size: var(--text-sm);
+    color: var(--t3);
+}
+
+.srp-card-note-bad {
+    color: var(--red);
+}

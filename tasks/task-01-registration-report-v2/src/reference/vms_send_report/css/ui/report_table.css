@@ -1,0 +1,113 @@
+.srp-section {
+    padding: var(--space-5);
+}
+
+.srp-section-head {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: var(--space-2);
+    margin-bottom: var(--space-3);
+}
+
+.srp-section-head .sr-hint {
+    margin: 0;
+}
+
+.srp-tablewrap {
+    overflow-x: auto;
+    border: 1px solid var(--line);
+    border-radius: var(--radius-md);
+    background: var(--surface);
+}
+
+.srp-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.srp-table th {
+    position: sticky;
+    top: 0;
+    padding: var(--space-2-5) var(--space-3);
+    background: var(--side);
+    border-bottom: 1px solid var(--line);
+    font-size: var(--text-sm);
+    font-weight: 500;
+    color: var(--t3);
+    text-align: left;
+    white-space: nowrap;
+}
+
+.srp-table td {
+    padding: var(--space-2-5) var(--space-3);
+    border-bottom: 1px solid var(--line);
+    font-size: var(--text-base);
+    line-height: var(--lh-base);
+    color: var(--t2);
+    vertical-align: middle;
+}
+
+.srp-table tbody tr:last-child td {
+    border-bottom: 0;
+}
+
+.srp-table tbody tr:hover td {
+    background: var(--side);
+}
+
+.srp-table .num {
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+}
+
+.srp-strong {
+    color: var(--t1) !important;
+    font-weight: 500;
+}
+
+.srp-muted {
+    color: var(--t3) !important;
+}
+
+.srp-bad {
+    color: var(--red) !important;
+    font-weight: 500;
+}
+
+.srp-nowrap {
+    white-space: nowrap;
+}
+
+.srp-clip {
+    max-width: 260px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.srp-channel {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-1);
+    font-size: var(--text-sm);
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.srp-channel-email {
+    color: var(--blue);
+}
+
+.srp-channel-whatsapp {
+    color: var(--green);
+}
+
+.srp-pager {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: var(--space-3);
+    margin-top: var(--space-3);
+}

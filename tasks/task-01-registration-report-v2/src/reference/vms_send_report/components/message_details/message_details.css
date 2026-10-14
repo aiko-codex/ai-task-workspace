@@ -1,0 +1,102 @@
+.srp-details-top {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: var(--space-2);
+    margin-bottom: var(--space-4);
+}
+
+.srp-details-top .sr-hint {
+    margin: 0;
+}
+
+.srp-details-list {
+    display: grid;
+    grid-template-columns: minmax(120px, auto) 1fr;
+    margin: 0 0 var(--space-4);
+    border: 1px solid var(--line);
+    border-radius: var(--radius-md);
+    overflow: hidden;
+}
+
+.srp-details-list dt,
+.srp-details-list dd {
+    margin: 0;
+    padding: var(--space-2) var(--space-3);
+    border-bottom: 1px solid var(--line);
+    font-size: var(--text-sm);
+    line-height: var(--lh-sm);
+}
+
+.srp-details-list dt {
+    background: var(--side);
+    color: var(--t3);
+    font-weight: 500;
+}
+
+.srp-details-list dd {
+    color: var(--t1);
+    word-break: break-word;
+}
+
+.srp-details-list dt:nth-last-of-type(1),
+.srp-details-list dd:last-child {
+    border-bottom: 0;
+}
+
+.srp-details-block {
+    margin-bottom: var(--space-4);
+}
+
+.srp-wa-bubble {
+    max-width: 340px;
+    padding: var(--space-2) var(--space-3);
+    border-radius: var(--radius-md);
+    background: oklch(0.95 0.05 150);
+    color: var(--t1);
+    font-size: var(--text-sm);
+    line-height: var(--lh-sm);
+    overflow-wrap: anywhere;
+    word-break: break-word;
+}
+
+.srp-wa-no-preview {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-2);
+    padding: var(--space-5) var(--space-3);
+    background: var(--raised);
+    border: 1px dashed var(--line2);
+    color: var(--t3);
+    text-align: center;
+}
+
+.srp-wa-img {
+    display: block;
+    width: 100%;
+    max-height: 320px;
+    margin-bottom: var(--space-2);
+    border-radius: var(--radius-sm);
+    object-fit: contain;
+    background: var(--surface);
+}
+
+.srp-wa-foot {
+    margin-top: var(--space-2);
+    font-size: 11px;
+    color: var(--t3);
+}
+
+.srp-details-block pre {
+    max-height: 280px;
+    margin: 0;
+    padding: var(--space-3);
+    overflow: auto;
+    background: var(--raised);
+    border-radius: var(--radius-md);
+    color: var(--t1);
+    font: 400 12px / 18px var(--font-mono);
+    white-space: pre-wrap;
+    word-break: break-word;
+}
